@@ -1,0 +1,45 @@
+* {
+    border: none;
+}
+
+#div {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start
+    
+}
+
+p {
+    color: blue;
+}
+
+h1 {
+    color: brown;
+}
+
+#outer {
+    height: 500px;
+    width: 100px;
+}
+
+.box1 {
+    background-color: black;
+}  
+
+.box2 {
+    background-color: blanchedalmond;
+}
+
+.box3 {
+    background-color: aqua;
+}
+
+#box4 {
+    background-color: blueviolet;
+}
+
+.box5 {
+    background-color: chartreuse;
+}
