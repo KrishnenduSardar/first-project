@@ -2,12 +2,9 @@
     border: none;
 }
 
-#div {
+div {
     height: 600px;
     width: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start
     
 }
 
@@ -19,20 +16,23 @@ h1 {
     color: brown;
 }
 
-#outer {
+.outer {
     height: 500px;
     width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start
 }
 
-.box1 {
+#box1 {
     background-color: black;
 }  
 
-.box2 {
+#box2 {
     background-color: blanchedalmond;
 }
 
-.box3 {
+#box3 {
     background-color: aqua;
 }
 
@@ -40,6 +40,6 @@ h1 {
     background-color: blueviolet;
 }
 
-.box5 {
+#box5 {
     background-color: chartreuse;
 }
